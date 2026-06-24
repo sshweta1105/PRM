@@ -21,6 +21,18 @@ function readJsonFile() {
             });
         }
 
+function readJsonFile1() {
+            return new Promise((resolve, reject) => {
+                const sucess = true; // Simulating a successful operation
+                if (sucess) {
+                    resolve('Promise resolved successfully!');
+                } else {
+                    reject('Promise rejected with an error.');
+                }
+            });
+        }
+
 module.exports = {
-    readJsonFile
+    readJsonFile,
+    readJsonFile1
 };
