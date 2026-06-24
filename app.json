@@ -1,0 +1,6 @@
+
+[
+  { "id": 1, "task": "Learn Node.js", "status": "pending" },
+  { "id": 2, "task": "Practice CAP", "status": "in progress" },
+  { "id": 3, "task": "Build project", "status": "completed" }
+]
