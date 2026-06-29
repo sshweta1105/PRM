@@ -2,17 +2,20 @@
   "name": "PRM",
   "version": "1.0.0",
   "dependencies": {
-    "@sap/cds": "^9"
+    "@sap/cds": "^9",
+    "dayjs": "^1.11.21",
+    "express": "^5.2.1"
   },
   "devDependencies": {
     "@cap-js/sqlite": "^2.4"
   },
   "scripts": {
-    "start": "cds-serve"
+    "start": "node index.js"
   },
   "private": true,
   "requires": {
-    "auth": { "kind": "dummy" }
+    "auth": {
+      "kind": "dummy"
+    }
   }
-
 }

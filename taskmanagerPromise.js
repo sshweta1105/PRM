@@ -32,7 +32,16 @@ function readJsonFile1() {
             });
         }
 
+function getdate(){
+return new Promise((resolve, reject) => {
+
+
+});
+
+}
+
 module.exports = {
     readJsonFile,
-    readJsonFile1
+    readJsonFile1,
+    getdate
 };
