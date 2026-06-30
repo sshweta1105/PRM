@@ -4,7 +4,8 @@
   "dependencies": {
     "@sap/cds": "^9",
     "dayjs": "^1.11.21",
-    "express": "^5.2.1"
+    "express": "^5.2.1",
+    "sqlite3": "^6.0.1"
   },
   "devDependencies": {
     "@cap-js/sqlite": "^2.4"
@@ -16,6 +17,14 @@
   "requires": {
     "auth": {
       "kind": "dummy"
+    }
+  },
+  "cds": {
+    "requires": {
+      "db": {
+        "kind": "sqlite",
+        "credentials": { "database": "local.db"}
+      }
     }
   }
 }
