@@ -4,6 +4,7 @@ using { managed, cuid } from '@sap/cds/common';
 namespace partner;
 
 entity Partner : managed, cuid {
+    Partner_id : String(20);
     name: String(100);
     email: String(100);
     phone: String(20);

@@ -2,6 +2,7 @@
   "name": "PRM",
   "version": "1.0.0",
   "dependencies": {
+    "@cap-js/hana": "^2",
     "@sap/cds": "^9",
     "dayjs": "^1.11.21",
     "express": "^5.2.1",
@@ -22,9 +23,20 @@
   "cds": {
     "requires": {
       "db": {
+        "[development]" : {
         "kind": "sqlite",
-        "credentials": { "database": "local.db"}
+        "credentials": {
+          "database": "local.db"}
+        
+        },
+        "[production]": {
+          "kind": "hana",
+          "pool": {
+            "min": 0,
+            "max": 1000
       }
     }
   }
+}
+}
 }

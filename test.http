@@ -4,12 +4,12 @@ Content-Type: application/json
 Accept: application/json
 
 ### post partner call
-POST http://localhost:4004/odata/v4/partner/Partners
+POST http://localhost:4004/odata/v4/partner/Partner
 Content-Type: application/json
 Accept: application/json
 
 {
-  "name": "Shweta",
+  "name": "Shweta2",
   "email": "abc@deloitte.com",
   "phone": "9876543212"
 }
@@ -24,7 +24,7 @@ Accept: application/json
 }
 
 ### Delete partner call
-DELETE http://localhost:4004/odata/v4/partner/Partners('387de2ee-e2af-4bd0-b833-18899c41d4f4')
+DELETE http://localhost:4004/odata/v4/partner/Partner('ad37281f-7be8-4bb5-888a-7d27d324c95d')
 Content-Type: application/json
 Accept: application/json
 
