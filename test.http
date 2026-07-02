@@ -9,7 +9,7 @@ Content-Type: application/json
 Accept: application/json
 
 {
-  "name": "Shweta2",
+  "name": "Shweta1",
   "email": "abc@deloitte.com",
   "phone": "9876543212"
 }
